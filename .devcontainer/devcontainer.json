@@ -1,0 +1,17 @@
+{
+  "name": "Arène des Titans — jeu dans le navigateur",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "forwardPorts": [6080],
+  "portsAttributes": {
+    "6080": {
+      "label": "Arène des Titans (noVNC)",
+      "onAutoForward": "openBrowser",
+      "protocol": "http"
+    }
+  },
+  "postCreateCommand": "cmake -S . -B build -DCMAKE_BUILD_TYPE=Release && cmake --build build -j2",
+  "postStartCommand": "bash .devcontainer/start-game.sh",
+  "remoteUser": "vscode"
+}
