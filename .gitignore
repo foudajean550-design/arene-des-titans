@@ -1,0 +1,11 @@
+build/
+cmake-build-*/
+*.o
+*.a
+*.ppm
+!assets/textures/*.ppm
+.vscode/
+.idea/
+*.cbp
+*.layout
+*.depend
