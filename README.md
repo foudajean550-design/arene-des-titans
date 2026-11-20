@@ -25,8 +25,6 @@ Joueur 1 : ZQSD pour se déplacer, F attaque, G spécial, H garde.
 Joueur 2 : flèches, K attaque, L spécial, O garde.
 C change l’angle de caméra ; P ou Échap met en pause.
 
-## Textures personnalisées
-Dépose des fichiers PPM P6 dans `assets/textures/` pour remplacer les textures générées.
 
 ## Licence
 MIT, voir [LICENSE](LICENSE).
