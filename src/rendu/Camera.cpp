@@ -1,5 +1,6 @@
 #include "Camera.hpp"
 
+#include <algorithm>
 #include <cstdlib>
 
 #include "GL.hpp"
